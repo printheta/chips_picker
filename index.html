@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <title>Chips & Picker</title>
+</head>
+<body>
+  <nav class="brown lighten-5">
+    <div class="container">
+      <div class="nav-wrapper">
+        <a href="#" class="brand-logo indigo-text text-darken-4">Midnights</a>
+      </div>
+    </div>
+  </nav>
+  
+  <section class="section">
+    <div class="container">
+      <h4 class="indigo-text text-darken-2">Birthday Confirmation</h4>
+      <p class="indigo-text text-darken-2">Verify birthday for appropriate album version suggestion...</p>
+      <div class="row">
+        <div class="col s12 m6">
+          <input type="text" class="datepicker">
+          <a class="waves-effect btn-flat right">Confirm</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section indigo lighten-5">
+    <div class="container">
+      <h4 class="indigo-text text-darken-2">Keywords</h4>
+      <p class="indigo-text text-darken-2">Look for and filter keywords in the album...</p>
+      <div class="row">
+        <div class="col s12 m6">
+          <div class="chips chips-placeholder chips-autocomplete"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <h4 class="indigo-text text-darken-2">Basic Card</h4>
+      <div class="row">
+        <div class="col s12">
+          <div class="card brown lighten-5">
+            <div class="card-content">
+              <span class="card-title indigo-text">Midnights</span>
+              <p>Midnights is the tenth studio album by American songstress Taylor Swift. She first revealed the project during her acceptance speech for Video of the Year at the 2022 VMAs, unveiling the album's release date and saying she'd give fans more information at midnight that night. Midnight is when she announced the album's title via Twitter and Instagram.</p>
+            </div>
+            <div class="card-action">
+              <a href="#">Twiiter</a>
+              <a href="#">Instagram</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section class="section indigo lighten-5">
+    <div class="container">
+      <h4 class="indigo-text text-darken-2">Image Card with FAB</h4>
+      <div class="row">
+        <div class="col s12 m6">
+          <div class="card brown lighten-5">
+            <div class="card-image">
+              <img src="img/midnights.jpg">
+            </div>
+            <div class="card-content">
+              <span class="card-title indigo-text">Midnights</span>
+              <p>Midnights is the tenth studio album by American singer songwriter Taylor Swift. The initial release of Midnights inculded 13 original tracks.</p>
+            </div>
+            <div class="card-action">
+              <a href="#">Spotify</a>
+              <a href="#">Apple Music</a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col s12 m6">
+          <div class="card brown lighten-5">
+            <div class="card-image">
+              <img src="img/midnights3am.jpg">
+              <a class="btn-floating halfway-fab waves-effect waves-light indigo btn-large"><i class="material-icons">add</i></a>
+            </div>
+            <div class="card-content">
+              <span class="card-title indigo-text">Midnights (3am Edition)</span>
+              <p>3 hours after the release of Midnights, with its 13 original tracks, it is followed by the release of the 3am Edition adding 7 bonus tracks in the album.</p>
+            </div>
+            <div class="card-action">
+              <a href="#">Spotify</a>
+              <a href="#">Apple Music</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section class="section">
+    <div class="container">
+      <h4 class="indigo-text text-darken-2">Horizontal Card</h4>
+      <div class="row">
+        <div class="col s12 m6">
+          <div class="card horizontal brown lighten-5">
+            <div class="card-image">
+              <img src="img/taylor1.jpg">
+            </div>
+            <div class="card-stacked">
+              <div class="card-content">
+                <span class="card-title indigo-text">Lavender Haze</span>
+                <p>“Lavender Haze” captures the feelings of a honeymoon-style relationship inspired by the classic 50's phrase.</p>
+              </div>
+              <div class="card-action">
+                <a href="#">Spotify</a>
+                <a href="#">Apple Music</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6">
+          <div class="card horizontal brown lighten-5">
+            <div class="card-image">
+              <img src="img/taylor2.jpg">
+            </div>
+            <div class="card-stacked">
+              <div class="card-content">
+                <span class="card-title indigo-text">Maroon</span>
+                <p>“Maroon” is the second song on Taylor Swift's tenth album Midnights. It has similarities to “Red” and “Clean.”</p>
+              </div>
+              <div class="card-action">
+                <a href="#">Spotify</a>
+                <a href="#">Apple Music</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section class="section indigo lighten-5">
+    <div class="container">
+      <h4 class="indigo-text text-darken-2">Card Reveal</h4>
+      <div class="row">
+        <div class="col s12 m4">
+          <div class="card brown lighten-5">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="img/taylor3.jpg">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator indigo-text">Anti-Hero<i class="material-icons right">more_vert</i></span>
+              <p>
+                <a href="#">Spotify</a>
+                <a href="#">Apple Music</a>
+              </p>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title indigo-text">Anti-Hero<i class="material-icons right">close</i></span>
+              <p>Described by Taylor herself as “one of my favorite songs that I have ever written”, “Anti-Hero” is the scintillating lead single from Midnights, her tenth studio album. Largely serving as a parallel to 2019's “The Archer”, the song shows a darker self-perception from Swift than usual, and goes into detail about what she feels are her personal failures.</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col s12 m4">
+          <div class="card brown lighten-5">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="img/taylor4.jpg">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator indigo-text">Snow On the Beach<i class="material-icons right">more_vert</i></span>
+              <p>
+                <a href="#">Spotify</a>
+                <a href="#">Apple Music</a>
+              </p>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title indigo-text">Snow On the Beach<i class="material-icons right">close</i></span>
+              <p>In “Snow On the Beach” Taylor Swift and Lana Del Rey sing about the rare phenomenon of two lovers simultaneously falling in love with each other. The song's heart-warming lyrics are part of a light and dreamy track that compliment the duo's heavenly vocals.</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col s12 m4">
+          <div class="card brown lighten-5">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="img/taylor5.jpg">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator indigo-text">You're On Your Own, Kid<i class="material-icons right">more_vert</i></span>
+              <p>
+                <a href="#">Spotify</a>
+                <a href="#">Apple Music</a>
+              </p>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title indigo-text">You're On Your Own, Kid<i class="material-icons right">close</i></span>
+              <p>“You're On Your Own, Kid” recounts a young person who longs for love but eventually understands that they are on their own as the song progresses toward its conclusion.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section indigo lighten-5">
+    <div class="container">
+      <div class="row">
+        <div class="col s12 m4">
+          <div class="card brown lighten-5">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="img/taylor6.jpg">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator indigo-text">Midnight Rain<i class="material-icons right">more_vert</i></span>
+              <p>
+                <a href="#">Spotify</a>
+                <a href="#">Apple Music</a>
+              </p>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title indigo-text">Midnight Rain<i class="material-icons right">close</i></span>
+              <p>With the song utilizing an inside light pop rhythm with a mix of some synth sounds, “Midnight Rain” finds Taylor singing about ending a relationship to focus on her singing career more. It then ends off, with their relationship being forgotten, as if it never happened.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m4">
+          <div class="card brown lighten-5">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="img/taylor7.jpg">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator indigo-text">Question...?<i class="material-icons right">more_vert</i></span>
+              <p>
+                <a href="#">Spotify</a>
+                <a href="#">Apple Music</a>
+              </p>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title indigo-text">Question...?<i class="material-icons right">close</i></span>
+              <p>Reflecting upon a past relationship on “Question…?,” Swift asks her former lover if their newer romantic experiences compare to the time that they spent together. Implicitly, she hopes that their ex is similarly unable to move on from her and that their newer attempts at love are only “second best after that meteor strike.”</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="card brown lighten-5">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="img/taylor8.jpg">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator indigo-text">Vigilante Shit<i class="material-icons right">more_vert</i></span>
+              <p>
+                <a href="#">Spotify</a>
+                <a href="#">Apple Music</a>
+              </p>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title indigo-text">Vigilante Shit<i class="material-icons right">close</i></span>
+              <p>“Vigilante Shit” follows a woman who seeks revenge on her lover, presumably someone who has committed a crime. Taylor and the subject of the song ostensibly obtain their revenge following a breakup - instead of getting sad, they get even.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section class="section indigo lighten-5">
+    <div class="container">
+      <div class="row">
+        <div class="col s12 m4">
+          <div class="card brown lighten-5">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="img/taylor9.jpg">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator indigo-text">Bejeweled<i class="material-icons right">more_vert</i></span>
+              <p>
+                <a href="#">Spotify</a>
+                <a href="#">Apple Music</a>
+              </p>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title indigo-text">Bejeweled<i class="material-icons right">close</i></span>
+              <p>“Bejeweled” describes the narrator's frustration with her lover, who does not value her as she deserves. In retaliation, she goes out for a night on the town. Despite her lover no longer being enchanted by her, she knows damn well that she can dazzle any room that she steps into.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="card brown lighten-5">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="img/taylor10.jpg">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator indigo-text">Labyrinth<i class="material-icons right">more_vert</i></span>
+              <p>
+                <a href="#">Spotify</a>
+                <a href="#">Apple Music</a>
+              </p>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title indigo-text">Labyrinth<i class="material-icons right">close</i></span>
+              <p>On “Labyrinth,” Taylor finds herself falling in love, hard, for someone not long after a heartbreak. Initially convinced that she will never recover from her pain, she marvels at how she finds comfort in a new person.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="card brown lighten-5">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="img/taylor11.jpg">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator indigo-text">Karma<i class="material-icons right">more_vert</i></span>
+              <p>
+                <a href="#">Spotify</a>
+                <a href="#">Apple Music</a>
+              </p>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title indigo-text">Karma<i class="material-icons right">close</i></span>
+              <p>On “Karma,” Taylor confronts people from her past, warning them about the consequences of their actions. Considering the way they acted towards her previously, Taylor is relieved that karma will do her justice and may not be so kind with them.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <h4 class="indigo-text text-darken-2">Horizontal Card</h4>
+      <div class="row">
+        <div class="col s12 m6">
+          <div class="card horizontal brown lighten-5">
+            <div class="card-image">
+              <img src="img/taylor12.jpg">
+            </div>
+            <div class="card-stacked">
+              <div class="card-content">
+                <span class="card-title indigo-text">Sweet Nothing</span>
+                <p>“Sweet Nothing” soft track about Taylor's simple gratitude for and love of the life that she has built with her boyfriend.</p>
+              </div>
+              <div class="card-action">
+                <a href="#">Spotify</a>
+                <a href="#">Apple Music</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6">
+          <div class="card horizontal brown lighten-5">
+            <div class="card-image">
+              <img src="img/taylor13.jpg">
+            </div>
+            <div class="card-stacked">
+              <div class="card-content">
+                <span class="card-title indigo-text">Mastermind</span>
+                <p>Swift reaffirms that she thinks that her relationship is fated, but also schemed her way into them being together.</p>
+              </div>
+              <div class="card-action">
+                <a href="#">Spotify</a>
+                <a href="#">Apple Music</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section indigo lighten-5">
+    <div class="container">
+      <h4 class="indigo-text text-darken-2">Tabs in Cards</h4>
+      <div class="row">
+        <div class="col s12">
+          <div class="card brown lighten-5">
+            <div class="card-content">
+              <span class="card-title indigo-text">Midnights (3am Edition) - Bonus Tracks</span>
+              <p>3 hours after the release of Midnights, with its 13 original tracks, it is followed by the release of the 3am Edition adding 7 bonus tracks in the album.</p>
+            </div>
+            <div class="card-tabs">
+              <ul class="tabs tabs-fixed-width">
+                <li class="tab"><a href="#track14">The Great War</a></li>
+                <li class="tab"><a class="active" href="#track15">Bigger Than The Whole Sky</a></li>
+                <li class="tab"><a href="#track16">Paris</a></li>
+                <li class="tab"><a href="#track17">High Infidelity</a></li>
+                <li class="tab"><a href="#track18">Glitch</a></li>
+                <li class="tab"><a href="#track19">Would've, Could've, Should've</a></li>
+                <li class="tab"><a href="#track20">Dear Reader</a></li>
+              </ul>
+            </div>
+            <div class="card-content grey lighten-4">
+              <div id="track14">“The Great War” is a bonus track off Taylor Swift's Midnights album. It details a devastating conflict within a romantic relationship. Despite the conflict, “The Great War” delivers a hopeful message, describing a couple emerging from the tension together and promising to love one another “always” since they have already survived a a difficult period together.</div>
+              <div id="track15">“Bigger Than The Whole Sky” is the fifteenth track off Midnights (3am Edition) and the second bonus track on the album, which was surprise released at 3am, three hours after the original Midnights release. “Bigger Than The Whole Sky” is a song about losing someone important to you despite only spending a short time with them and wondering what it would have been like if things had turned out differently. Swift leaves the sort of loss open to interpretation.</div>
+              <div id="track16">Paris is the sixteenth track on Taylor Swift's tenth album, Midnights. It was released as apart of the surprise drop of Midnights 3AM edition and is the third Taylor swift song to have a city in the title - the others being “London Boy” and “Welcome To New York”.</div>
+              <div id="track17">“High Infidelity” continues a pattern of Taylor exploring the nuances of cheating and infidelity, which started in 2020's folklore and includes songs such as “illicit affairs”, “august”, “betty”, “no body no crime”, and “ivy”. In “High Infidelity”, Taylor delves in-depth into the games played within an unstable relationship and the intense pain of infidelity, caused both to the cheating partner and the partner being cheated on.</div>
+              <div id="track18">“Glitch” reflects on a relationship that was never meant to be. It started off through friendship, casually evolved into friendship with benefits, but somehow turned into a true romance, so unlikely that it must have been a glitch.</div>
+              <div id="track19">In “Would've, Could've, Should've”, Taylor uses morbid and religious overtones in order to express regret for a youthful relationship that left her deeply scarred. This draws on themes such as those in previous songs “A Perfectly Good Heart” and “Dear John”, where the singer's naivete was similarly trampled on.</div>
+              <div id="track20">“Dear Reader” is the final track of the 3AM edition of Taylor Swift's 2022 album Midnights. In it, Taylor attempts to give the listener (or reader) life advice. She advises the listener to, among other things, be wary, reinvent themselves, bend when they can but not bend over for others who ask of them, and keep secrets. These are all meant not to be trusted, as the narrator themself warns the listener not to. In the song “Dear Reader”, the narrator has come into a very isolated, desperate life, which provides a fitting finale to an album touching on self-doubt, mistrust, and pain throughout.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section class="section">
+    <div class="container">
+      <h4 class="indigo-text text-darken-2">Media</h4>
+      <div class="row">
+        <div class="col s12">
+          <div class="video-container">
+            <iframe width="900" height="506" src="https://www.youtube.com/embed/IlEgdb6sdII" title="Midnights Mayhem With Me (ALL EPISODES) 🕰️" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+
+      <div class="slider">
+        <ul class="slides">
+          <li>
+            <img src="img/tsv5.jpg">
+            <div class="caption center-align">
+              <h3 class="indigo-text text-darken-4">Midnights in Vynil</h3>
+              <h5 class="light indigo-text text-lighten-2">Get your preferred vynil edition from a selection of four!</h5>
+            </div>
+          </li>
+          <li>
+            <img src="img/tsv1.jpg">
+            <div class="caption right-align">
+              <h3 class="indigo-text text-darken-4">Midnights:</h3>
+              <h5 class="light indigo-text text-lighten-2">Jade Green Edition Vynil</h5>
+            </div>
+          </li>
+          <li>
+            <img src="img/tsv2.jpg">
+            <div class="caption right-align">
+              <h3 class="indigo-text text-darken-4">Midnights:</h3>
+              <h5 class="light indigo-text text-lighten-2">Moonstone Blue Edition Vynil</h5>
+            </div>
+          </li>
+          <li>
+            <img src="img/tsv3.jpg">
+            <div class="caption right-align">
+              <h3 class="indigo-text text-darken-4">Midnights:</h3>
+              <h5 class="light indigo-text text-lighten-2">Mahogany Edition Vynil</h5>
+            </div>
+          </li>
+          <li>
+            <img src="img/tsv4.jpg">
+            <div class="caption right-align">
+              <h3 class="indigo-text text-darken-4">Midnights:</h3>
+              <h5 class="light indigo-text text-lighten-2">Blood Moon Edition Vynil</h5>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Jquery CDN -->
+  <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script>
+    $(document).ready(function() {
+      $(".dropdown-trigger").dropdown();
+      $('.fixed-action-btn').floatingActionButton();
+      $('.tabs').tabs();
+      $('.slider').slider({
+        height: 600
+      });
+      $('.chips').chips();
+      $('.chips-placeholder').chips({
+        placeholder: 'Enter a word',
+        secondaryPlaceholder: '+Word',
+      });
+      $('.chips-autocomplete').chips({
+        autocompleteOptions: {
+          data: {
+            'Lavender Haze': null,
+            'Maroon': null,
+            'Anti-Hero': null,
+            'Snow On The Beach': null,
+            'Youre On Your Own, Kid': null,
+            'Midnight Rain': null,
+            'Question...?': null,
+            'Vigilante Shit': null,
+            'Bejeweled': null,
+            'Labyrinth': null,
+            'Karma': null,
+            'Sweet Nothing': null,
+            'Mastermind': null
+          },
+          limit: Infinity,
+          minLength: 1
+        }
+      });
+      $('.datepicker').datepicker();
+    });
+  </script>
+</body>
+</html>
